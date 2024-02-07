@@ -7,7 +7,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "prudhvi-state-prod1"
+    bucket = "prudhvi-state-prod"
     key    = "app-alb"
     region = "us-east-1"
     dynamodb_table = "prudhvi-locking-prod"
